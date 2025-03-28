@@ -1,5 +1,3 @@
-# Repositório Mentoria Fino
-Repositório desenvolvido para a entrega das atividades propostas na mentoría do Fino.
 
 ## Atividade 1 - Mentoria Fino
 Atividade desenvolvida para resolver 5 funções em python:
