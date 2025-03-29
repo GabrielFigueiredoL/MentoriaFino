@@ -1,4 +1,4 @@
-palavras = ["python", "programação", "fino", "tecnologia"]
+palavras = ["python", "programação", "fino", "tecnologia", "mato"]
 
 def maiorPalavraDaLista(palavras):
   maiorPalavraDaLista = palavras[0]
