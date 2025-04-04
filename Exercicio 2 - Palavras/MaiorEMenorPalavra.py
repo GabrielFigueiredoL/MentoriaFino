@@ -1,8 +1,13 @@
-palavras = ["python", "programação", "fino", "tecnologia", "mato"]
+palavras = ["jorge", "joao", "Maria", "Julia", "Médico", "Otorrinolaringologista", "até"]
+
+def primeiraPalavra(palavras):
+  if(len(palavras) == 0):
+    return ""
+  return palavras[0]
 
 def maiorPalavraDaLista(palavras):
-  maiorPalavraDaLista = palavras[0]
-  tamanhoMaiorPalavraDaLista = len(palavras[0])
+  maiorPalavraDaLista = primeiraPalavra(palavras)
+  tamanhoMaiorPalavraDaLista = len(maiorPalavraDaLista)
   for palavra in palavras:
     if len(palavra) > tamanhoMaiorPalavraDaLista:
       tamanhoMaiorPalavraDaLista = len(palavra)
@@ -10,8 +15,8 @@ def maiorPalavraDaLista(palavras):
   return tamanhoMaiorPalavraDaLista, maiorPalavraDaLista
   
 def menorPalavraDaLista(palavras):
-  menorPalavraDaLista = palavras[0]
-  tamanhoMenorPalavraDaLista = len(palavras[0])
+  menorPalavraDaLista = primeiraPalavra(palavras)
+  tamanhoMenorPalavraDaLista = len(menorPalavraDaLista)
   for palavra in palavras:
     if len(palavra) < tamanhoMenorPalavraDaLista:
       tamanhoMenorPalavraDaLista = len(palavra)
