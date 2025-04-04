@@ -24,3 +24,7 @@ Dado dois números para uma função, ela retorna a área do triângulo.
 ### Perímetro do triângulo
 Dado três números para uma função, ela retorna o perímetro do triângulo.
 
+## Atividade 2 - Mentoria Fino
+Atividade desenvolvida para resolver 2 funções em python ao receber uma lista de palavras:
+- retornar o tamanho da maior palavra
+- retornar o tamanho da menor palavra
