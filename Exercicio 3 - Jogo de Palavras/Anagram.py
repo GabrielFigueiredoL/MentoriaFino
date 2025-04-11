@@ -6,6 +6,8 @@ fifthWord = "Remo"
 sixthWord = "Toma"
 
 def countLetters(word):
+  if type(word) != str:
+    raise Exception('Word is not a string')
   formattedWord = word.upper().replace(" ", "")
   wordDict = {}
   for letter in formattedWord:
