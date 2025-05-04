@@ -1,0 +1,2 @@
+Map data structure (also known as a [[Dictionary]] , associative array , or [[Hash]] map) is defined as a data structure that stores a collection of key-value pairs, where each key is associated with a single value.
+Maps provide an efficient way to store and retrieve data based on a unique identifier (the key).

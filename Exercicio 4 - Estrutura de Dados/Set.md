@@ -1,0 +1,1 @@
+Set Data Structure is a type of data structure which stores a collection of distinct elements. The main advantage of using a set data structure is that it allows you to perform operations on a collection of elements in an efficient and organized way.

@@ -1,0 +1,2 @@
+Lists are used to store multiple items in a single variable. List items are ordered, changeable, and allow duplicate values. It's very similar to an [[array]], it's index-based, and each item can be accessed using its position in the list. 
+Lists can contain elements of different data types, such as integers, strings, or even other lists and has dynamic size.
